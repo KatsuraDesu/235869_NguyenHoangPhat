@@ -64,6 +64,6 @@ git push
 - Backend API (Render): https://api-235869.onrender.com
 - Kiểm tra backend: https://api-235869.onrender.com/health
 ## Triển khai
-
+- Frontend (Render): https://web-235869.onrender.com
 - Backend API (Render): https://api-235869.onrender.com
 - Kiểm tra backend: https://api-235869.onrender.com/health

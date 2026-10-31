@@ -33,3 +33,23 @@ npm run dev
 ```
 
 (Sẽ bổ sung chi tiết ở các câu sau.)
+## Chạy frontend bằng Docker
+
+Image: https://hub.docker.com/r/hoangphat111/frontend
+
+Địa chỉ backend được cấu hình lúc build bằng `VITE_API_URL`:
+
+```bash
+cd frontend
+docker build -t hoangphat111/frontend:latest --build-arg VITE_API_URL=http://localhost:5000 .
+docker run -d -p 8080:80 hoangphat111/frontend:latest
+```
+
+Hoặc dùng image có sẵn (trỏ tới backend tại http://localhost:5000):
+
+```bash
+docker pull hoangphat111/frontend:latest
+docker run -d -p 8080:80 hoangphat111/frontend:latest
+```
+
+Truy cập: http://localhost:8080

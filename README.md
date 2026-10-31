@@ -53,3 +53,17 @@ docker run -d -p 8080:80 hoangphat111/frontend:latest
 ```
 
 Truy cập: http://localhost:8080
+cd C:\Users\PHAT\Desktop\235869_NguyenHoangPhat
+git status
+git add .
+git commit -m "Câu 8. Triển khai backend API trên Render"
+git push
+## Triển khai
+
+- Frontend (Render): https://web-235869.onrender.com
+- Backend API (Render): https://api-235869.onrender.com
+- Kiểm tra backend: https://api-235869.onrender.com/health
+## Triển khai
+
+- Backend API (Render): https://api-235869.onrender.com
+- Kiểm tra backend: https://api-235869.onrender.com/health
